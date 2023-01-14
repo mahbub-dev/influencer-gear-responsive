@@ -1,0 +1,123 @@
+/* for small device  */
+@media only screen and (max-width: 576px) {
+	.container {
+		padding: 0px 0.5rem;
+	}
+	.header-intro {
+		flex-direction: column-reverse;
+		align-items: center;
+		justify-content: center;
+		gap: 14px;
+		margin-top: 22px;
+	}
+	.header-intro-info {
+		max-width: 404px;
+		text-align: center;
+		align-items: center;
+	}
+}
+
+/* for navbar  */
+@media screen and (max-width: 768px) {
+	.navMenu {
+		display: flex;
+		position: relative;
+		align-items: center;
+		justify-content: space-between;
+	}
+    .header-intro-banner img {
+		width: 257px;
+		height: 257px;
+	}
+    .header-intro-info h1 {
+		font-size: 28px;
+	}
+	.header-intro-info p {
+		font-size: 14px;
+	}
+	.linkItems {
+		overflow: hidden;
+		top: 0;
+		left: -200px;
+		transition: left 0.3s ease-in;
+		position: absolute;
+		display: flex;
+		background-color: black;
+		padding: 1rem;
+		flex-direction: column;
+		list-style: none;
+		gap: 20px;
+	}
+	.cross {
+		position: absolute;
+		right: 0px;
+		border-radius: 50%;
+		top: 0px;
+		background-color: white !important;
+	}
+	.linkItems li a {
+		padding: 0 1rem;
+		color: #fff;
+	}
+	.navMenu p {
+		font-size: 16px;
+		font-family: 700;
+	}
+	header {
+		margin-top: 35px;
+	}
+	.navMenu a {
+		width: 24px;
+		height: 24px;
+	}
+	.navMenu a > img {
+		width: 100%;
+		height: 100%;
+	}
+	.navMenu button {
+		background: none;
+		cursor: pointer;
+		width: 24px;
+		border: none;
+		outline: none;
+		height: 24px;
+	}
+	.navMenu button img {
+		width: 100%;
+		height: 100%;
+	}
+	nav {
+		display: none;
+	}
+}
+/* for medium device  */
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+	.container {
+		padding: 0px 1rem;
+	}
+}
+
+/* for large device */
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+	.container {
+		padding: 0px 1rem;
+	}
+	header {
+		margin-top: 35px;
+	}
+	.header-intro-info h1 {
+		font-size: 40px;
+	}
+	.header-intro-info p {
+		font-size: 13px;
+		max-width: 404px;
+	}
+	.header-intro-banner img {
+		width: 370px;
+		height: 365px;
+	}
+}
+
+/* for extra large device  */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+}

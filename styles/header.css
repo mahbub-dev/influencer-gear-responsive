@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Manrope:wght@700&family=Poppins:wght@500;600;700&display=swap");
+:root {
+	--primaryFont: "Inter", sans-serif;
+	--secondaryFont: "Inter", sans-serif;
+	--optionalFont: "Manrope", sans-serif;
+}
+/* broser reset and deafault font declare  */
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+	font-family: var(--primaryFont);
+}
+
+/* header part  */
+header {
+	margin-top: 87px;
+}
+.container {
+	max-width: 1200px;
+	padding: 0 4rem;
+	margin: auto;
+}
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.navMenu {
+	display: none;
+}
+.logo {
+	font-weight: 700;
+	font-size: 24px;
+	font-feature-settings: "liga" off;
+	color: #3a3a3a;
+}
+.links {
+	gap: 34px;
+	display: flex;
+	list-style: none;
+	align-items: center;
+	justify-content: center;
+}
+.links li a,
+.linkItems li a {
+	font-weight: 600;
+	font-size: 16px;
+	font-feature-settings: "liga" off;
+	color: #3a3a3a;
+	text-decoration: none;
+}
+.links li img {
+	width: 24px;
+	height: 24px;
+}
+
+/* header intro part   */
+.header-intro {
+	margin-top: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.header-intro-info {
+	max-width: 582px;
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	justify-content: center;
+	color: #3a3a3a;
+}
+.header-intro-info h1 {
+	font-weight: 700;
+	font-size: 52px;
+}
+.header-intro-info p {
+	font-weight: 600;
+	font-size: 16px;
+	max-width: 505px;
+}
+.header-intro-info button {
+	display: flex;
+	border: none;
+	outline: none;
+	padding: 10px 24px;
+	gap: 8px;
+	align-items: center;
+	justify-content: center;
+	width: 196px;
+	background: #e02c6d;
+	border-radius: 41px;
+	color: #fff;
+	cursor: pointer;
+}
+
+.header-intro-banner {
+	background: url("../images/Circle\ design.svg") no-repeat center;
+}
+.header-intro-banner img {
+	width: 440px;
+	height: 414px;
+}
